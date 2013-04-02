@@ -26,7 +26,6 @@ class evquickbase {
     	$CI->load->library('quickbase');
     	$this->qb = $CI->quickbase;
     	$this->schema = $this->qb->get_schema();  
-  		log_message('info', $this->schema);
     }
     
 	private function xml_to_array($xml){
