@@ -19,14 +19,8 @@ class Event_Create extends CI_Controller {
 	 */
 	public function index()
 	{
-		//$this->load->library(array('evquickbase', 'form_validation'));
 		$this->load->helper(array('form'));
 		$this->load->model('Event_create_model');
-		
-		// SET VALIDATION RULES
-		//$this->form_validation->set_rules('event_name', 'this fucking eventname', 'required');
-		//$this->form_validation->set_rules('event_date', 'Event Date', 'required');
-		//$this->form_validation->set_error_delimiters('<div class="error">','</div>');
 		
 		// has the form been submitted and with valid form info (not empty values)
 		if($this->input->post('create_event'))
