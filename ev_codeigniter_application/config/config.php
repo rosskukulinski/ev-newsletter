@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-//$config['base_url']	= 'https://ev.stanford.edu/event_form/codeigniter/';
-$config['base_url']	= 'http://localhost:8888/';
+$config['base_url']	= 'https://ev.stanford.edu/event_form/codeigniter/';
+//$config['base_url']	= 'http://localhost:8888/';
 
 
 /*
@@ -46,8 +46,8 @@ $config['index_page'] = 'index.php';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-//$config['uri_protocol']	= 'QUERY_STRING';
-$config['uri_protocol']	= 'AUTO';
+$config['uri_protocol']	= 'QUERY_STRING';
+//$config['uri_protocol']	= 'AUTO';
 
 
 
