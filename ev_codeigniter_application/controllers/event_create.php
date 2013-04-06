@@ -35,8 +35,9 @@ class Event_Create extends CI_Controller {
 			else
 			{
 				//display error
-				echo 'Your event may or not have been created due to the following error.  Please copy and paste this page and send to ross.kukulinski@asti-usa.com'.'<br>';
+				echo 'Your event may or not have been created due to the following error.  Please copy and paste this page and send to rossk@stanford.edu'.'<br>';
 				echo $error.'<br>';
+        log_message('error', $error);
 				//echo 'Your event was not created.  Please hit the back button and try again';
 			}
 		
